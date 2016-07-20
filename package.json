@@ -1,0 +1,28 @@
+{
+  "name": "nearley-make",
+  "version": "1.0.0",
+  "description": "Compile nearley grammars at run-time",
+  "main": "nearley-make.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanalan/nearley-make.git"
+  },
+  "keywords": [
+    "nearley",
+    "grammar",
+    "make",
+    "parser",
+    "parse",
+    "compile",
+    "compiler"
+  ],
+  "author": "nanalan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nanalan/nearley-make/issues"
+  },
+  "homepage": "https://github.com/nanalan/nearley-make#readme",
+  "dependencies": {
+    "nearley": "^2.6.0"
+  }
+}

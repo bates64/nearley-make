@@ -1,0 +1,1 @@
+main -> "the usual" {% d => output %}
