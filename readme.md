@@ -21,7 +21,10 @@ const grammar = fs.readFileSync('grammar.ne', 'utf-8') // note that this is a *n
 const parser = make(grammar, {
   // anything you want to expose to the grammar as variables
   // for example builtins or flavour settings
-  output: 'Hello, World!'
+  output: 'Hello, World!',
+  
+  // if you want to use `require` in your grammar, make sure you do the following:
+  require: require
 })
 
 const trees = parser.feed('the usual').results
