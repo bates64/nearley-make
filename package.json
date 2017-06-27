@@ -1,6 +1,6 @@
 {
   "name": "nearley-make",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compile nearley grammars at run-time",
   "main": "nearley-make.js",
   "repository": {
