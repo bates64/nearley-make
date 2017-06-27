@@ -1,6 +1,5 @@
 'use strict'
 
-const fs = require('fs')
 const nearley = require('nearley')
 const nearleyg = require('nearley/lib/nearley-language-bootstrapped.js')
 const nearleyc = require('nearley/lib/compile.js')
